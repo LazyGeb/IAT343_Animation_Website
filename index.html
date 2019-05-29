@@ -6,27 +6,26 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>IAT 343 Temp Title</title>
+    <title>IAT 343 - The Berry Best</title>
 
 	<!--<link rel="stylesheet" href="css/normalize.css">-->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!--<link rel="script" href="main.js">-->
 
 </head>
 <body>
 
 <div class="container">
 	<header class="page-header">
-		<h1> IAT 343 </h1>
+		<h1 class="mt-3 mb-0"> IAT 343 </h1>
+		<small class="text-muted">tiny timmy the trex with small arms</small>
 	</header>
 
+
+	<!-- navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		<!--button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button-->
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav">
-				<a class="nav-item nav-link active" href="#">home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link active" href="index.html">home <span class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link" href="script.html">script</a>
 				<a class="nav-item nav-link" href="concept.html">char/enviro concepts</a>
 				<a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">pitched storyboard</a>
@@ -37,10 +36,45 @@
 	</nav>
 
 	<div class="jumbotron">
-		<p class="col-md-12 text-left" >Gabriele Dal Cengio</p>
-		<p class="col-md-12 text-left" >Coco Miko</p>
-		<p class="col-md-12 text-left" >Caleb Taylor</p>
-		<p class="col-md-12 text-left" >Aneeta Thatch</p>
+
+		<h2 class="mx-auto" style="width: 200px;"> Blog </h2>
+
+		<div class="row">
+			<div class="col-3">
+				<div class="list-group" id="list-tab" role="tablist">
+					<a class="list-group-item list-group-item-action active" id="list-gabe-list" data-toggle="list" href="#list-gabe" role="tab" aria-controls="gabe">Gabriele Dal Cengio</a>
+					<a class="list-group-item list-group-item-action" id="list-coco-list" data-toggle="list" href="#list-coco" role="tab" aria-controls="coco">Coco Miko</a>
+					<a class="list-group-item list-group-item-action" id="list-caleb-list" data-toggle="list" href="#list-caleb" role="tab" aria-controls="caleb">Caleb Taylor</a>
+					<a class="list-group-item list-group-item-action" id="list-aneeta-list" data-toggle="list" href="#list-aneeta" role="tab" aria-controls="aneeta">Aneeta Thatch</a>
+				</div>
+			</div>
+		<div class="col-9">
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="list-gabe" role="tabpanel" aria-labelledby="list-gabe-list">
+					<h4>Week 3</h4> 
+					<p>For week three, my role was to create the initial website and help brainstorm ideas for the
+					initial concept of our final project. I decided to try out using bootstrap for the first time 
+					for the website for practice and experimentation. I will not bother with the design of the website
+					until our concepts are finalized. I also set up a github for this website and a brainstorming document via google drive. </p>
+				</div>
+				<div class="tab-pane fade" id="list-coco" role="tabpanel" aria-labelledby="list-coco-list">
+					<h4>Week 3</h4> 
+					<p>my role this week was to sketch out some character designs which you can see in the <a href="concept.html">concepts</a> 
+					page.  (insert actual here).</p>
+				</div>
+				<div class="tab-pane fade" id="list-caleb" role="tabpanel" aria-labelledby="list-caleb-list">
+					<h4>Week 3</h4> 
+					<p>my role this week was to come up with the script and initial story which you can see in the 
+					<a href="script.html">script</a> page.  (insert actual here).</p>
+				</div>
+				<div class="tab-pane fade" id="list-aneeta" role="tabpanel" aria-labelledby="list-aneeta-list">
+					<h4>Week 3</h4> 
+					<p>my role this week was to sketch out some background designs which you can see in the <a href="concept.html">concepts</a> 
+					page.  (insert actual here).</p>
+				</div>
+			</div>
+		</div>
+	</div>
 	</div>
 </div>
 
@@ -58,7 +92,9 @@
 
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
